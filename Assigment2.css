@@ -1,0 +1,49 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 183px;
+    width: 1000px;
+    height: 100px;
+    background-color: pink;     
+}
+
+.Font_Header{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.Navigation_Bar{
+    position: fixed;
+    background-color: blueviolet;
+    top: 100px;
+    width: 1000px;
+    height: 50px;
+    left: 183px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 1000px;
+    height: 550px;
+    margin-top: 150px;
+    margin-left: 175px;
+    text-align: justify;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 50px;
+    width: 1000px;
+    margin-left: 175px;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
