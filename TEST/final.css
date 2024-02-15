@@ -1,0 +1,16 @@
+table,th,td {
+            border:1px solid rgb(0, 0, 0);
+        }
+        
+        .bold-text {
+            font-weight: bold;
+}
+
+img{
+    width: 200px;
+}
+
+table{
+    text-align: center;
+    background-color: rgba(204, 124, 204, 0.37);
+}

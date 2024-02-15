@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Name : </label>
+    <input id="nametext" type="text" placeholder="กรุณาใส่ชื่อ" onfocus="Focusbox()" onblur="Blurbox()" >
+
+    
+    <label for="">Onchance : </label>
+    <input id="Yourname" type="text" placeholder="input your name" onchange="Textchange()">
+    <h1 id="Txt">Your name</h1>
+    
+    <br><br>
+    
+    <label for="">Choose your skills</label>
+    <select name="" id="menu" onchange="Selectmenu()">
+        <option value="C">C</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="Vue js">Vue js</option>
+    </select>
+    <p id="Val">Your skill is : <span id="asw" style="color: red;"></span></p>
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
